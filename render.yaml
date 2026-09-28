@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: junior-vote-manager
+    runtime: static
+    buildCommand: echo 'Static site ready'
+    staticPublishPath: ./
